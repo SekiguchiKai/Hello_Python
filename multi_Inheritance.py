@@ -30,7 +30,7 @@ class Child(Parent1, Parent2):
     pass
 
 child = Child("childインスタンス")
-# 多重継承で継承した親classに同じメソッドが存在する場合、最初の方のclassのメソッド
+# 多重継承で継承した親classに同じメソッドが存在する場合、最初の方のclassのメソッドが継承される
 child.show_my_name()
 child.say_time()
 child.call()
