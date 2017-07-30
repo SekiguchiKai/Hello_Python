@@ -31,15 +31,17 @@ class SmartPhone(Phone):
     # クラスメソッド
     @classmethod
     def take_a_picture(cls, subject):
-        print('Take a picture of {0}'.format(subject))
+        print('Take a picture of {0}.'.format(subject))
 
 print("===Normal Phone===")
+# インスタンス化
 normalPhone = Phone("xxx-xxx-xxx")
 normalPhone.show_my_number()
 normalPhone.call("sekky0905")
 
 print("===Smart Phone===")
-iPhone = SmartPhone("○○○-○○○-○○○", 'ios')
+# インスタンス化
+iPhone = SmartPhone("○○○-○○○-○○○", "ios")
 iPhone.show_my_number()
 # Phoneを継承しているから使える
 iPhone.call("sekky0905")
