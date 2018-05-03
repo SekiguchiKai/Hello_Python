@@ -26,3 +26,22 @@ f = 10.5
 
 # bool (大文字)
 b = True
+
+# 割り算 : /
+x = 10
+a = 10 / 3
+print(a)
+
+
+# 切り捨て : //
+x = 10
+a = 10 // 3
+print(a)
+
+print("ウェ〜イ!" * 3)
+
+dynamic_lang = "Python"
+static_lang = "Go"
+
+print("動的言語 : %s, 性的言語 : %s" % (dynamic_lang, static_lang))
+print("動的言語 : {0}, 性的言語 : {1}".format(dynamic_lang, static_lang))
